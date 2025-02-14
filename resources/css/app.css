@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+@tailwind base;
+
+/* @layer base {
+    p{
+        @apply mb-2 text-tiny;
+    }
+    hr {
+        @apply border-b border-t-0 my-5;
+    }
+  } */
+
+@tailwind components;
+
+@layer components {
+    /* *{ border:1px solid red; } */
+
+    .content{
+        @apply my-20 mx-auto 2xl:max-w-screen-xl  
+    } 
+    
+    
+    
+    /* .card{
+        @apply rounded-md shadow bg-white m-5 text-black-333;
+    }
+
+    .btn{
+        @apply text-tiny inline-block px-4 py-2 rounded-md focus:outline-none transition duration-500 ease-in-out; 
+    }
+
+    .btn-primary{
+        @apply bg-blue-500 text-white hover:bg-blue-600;
+    }
+
+    .btn-warning{
+        @apply bg-warning-500 text-white hover:bg-warning-700;
+    }
+
+    .btn-success{
+        @apply bg-green-500 text-white hover:bg-green-400;
+    }
+
+    .btn-outline-danger{
+        @apply border border-red-600 text-red-600 hover:bg-red-600 hover:text-white;
+    } */
+
+}
+
+@tailwind utilities;
+ 
+/* .fade-enter-active, .fade-leave-active {
+    transition: opacity .5s
+}
+
+.fade-enter, .fade-leave-to {
+    opacity: 0
+}
+   */
+
